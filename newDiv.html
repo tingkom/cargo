@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="mystyle.css" />
+	
+	<link rel="stylesheet" type="text/css" href="jquery-easyui-1.4.3/themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="jquery-easyui-1.4.3/themes/icon.css">
+	
+		<script type="text/javascript" src="jquery-easyui-1.4.3/jquery.min.js" />
+		<script type="text/javascript" src="jquery-easyui-1.4.3/jquery.easyui.js" />
+		<script type="text/javascript" src="jquery-easyui-1.4.3/locale/easyui-lang-zh_CN.js" />
+		<script type=text/javascript>
+		$(function(){
+									
+			$('#retab').propertygrid({    
+				url:'json_data.json',    
+				showGroup: true,    
+				scrollbarSize: 0    
+			}); 
+				
+		}
+		
+		</script>
+	
+</head>
+	
+<body>
+	<div id="container">
+	
+		<div id="middle">
+				<div id="lside">
+					<div>
+						<table id="retab" >			
+						</table>
+					</div>
+				</div>
+				<div id="rside">
+					<div id="rsidetop">		
+						<table id="gtab" >
+						</table>
+					</div>
+					<div id="footer">			
+						<table id="wtab" >
+						</table>	
+					</div>
+				</div>
+		
+		</div>
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{"total":15,"rows":[    
+    {"name":"企业名称","value":"company","group":"公司信息","editor":"text"},    
+    {"name":"海关编码","value":"companyCode","group":"公司信息","editor":"text"},    
+    {"name":"合同号","value":"contract","group":"公司信息","editor":"text"}, 
+	{"name":"贸易方式","value":"contract","group":"公司信息","editor":"text"},
+	{"name":"境内货源地","value":"contract","group":"公司信息","editor":"text"},
+	{"name":"联系人","value":"contract","group":"公司信息","editor":"text"},
+	{"name":"电话","value":"contract","group":"公司信息","editor":"text"},
+	{"name":"包数","value":"contract","group":"核销信息","editor":"text"},
+	{"name":"毛重","value":"contract","group":"核销信息","editor":"text"},
+	{"name":"金额","value":"contract","group":"核销信息","editor":"text"},
+	{"name":"单据来源","value":"contract","group":"核销信息","editor":"text"},
+	{"name":"接单日期","value":"contract","group":"核销信息","editor":"text"},
+	{"name":"回单日期","value":"contract","group":"核销信息","editor":"text"},
+	{"name":"收款日期","value":"contract","group":"收款","editor":"text"},
+	{"name":"收款金额","value":"contract","group":"收款","editor":"text"}
+]}
